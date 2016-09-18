@@ -1,0 +1,45 @@
+
+
+<div class="quiz-area" ng-show="inProgress">
+	<div ng-show="!quizOver">
+		<h2 id="question">{{question.toString()}}</h2>
+		<ol id="options" style="list-style-type:none">
+
+			<li ng-repeat="option in options"  my-repeat-directive>
+			
+					<input id="input-1"  type="checkbox" name="answer" value="{{$index + 1}}" " data-off-label="false" data-on-label="false" data-off-icon-cls=" glyphicon-remove" data-on-icon-cls="glyphicon-ok">
+					<b> 	&nbsp;{{option }}</b>
+					<br><br>
+					
+					
+			</li>
+			
+		</ol>
+		<button  class="btn btn-success" ng-click="checkAnswer()" ng-show="answerMode">Submit</button>
+
+		<div ng-show="!answerMode">
+			<button ng-click="nextQuestion()" class="next-question btn btn-success">Next</button>
+			<span class="correct" ng-show="correctAns"><b>That is correct!</b></span>
+			<span class="incorrect"  ng-show="!correctAns">Sorry, that is an incorrect answer.</span>
+		</div>
+	</div>
+
+	<div ng-show="quizOver">
+		<h2>Quiz is over</h2>
+		<button  class="btn btn-danger" ng-click="reset()">Play again</button>
+	</div>
+
+	<div id="score">
+		Score: {{score}}
+	</div>
+</div>
+
+<div class="intro" ng-show="!inProgress">
+	<p  class="welcome" >Welcome to the Certgoo Quiz App</p>
+	<button id="startQuiz" ng-click="start()"  class="btn btn-primary">Start the Quiz</button>
+</div>
+
+
+<div ng-load-script></div>
+
+  

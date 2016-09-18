@@ -1,0 +1,549 @@
+{
+  "title": "3Com Certified Rnterprise LAN Specialist Final Exam v3.0",
+  "exam": "3COM 3M0-211 Exam",
+  "question1": {
+    "dec": "Which command shows the Quality of Service (QoS) settings for Interface Module #2, Ethernet port #6, on the Switch 7700?",
+    "choose": [
+      "A. display qos Ethernet 6/2 all",
+      "B. display qos Ethernet 2/0/6 all",
+      "C. display qos-interface Ethernet 2/0/6 all",
+      "D. display qos-interface Ethernet 6/0/2 all"
+    ],
+    "answer": "2"
+  },
+  "question2": {
+    "dec": "How can you get the current temperature and upper/lower limits for each Switch 7700 and Switch 8800 Interface Module?",
+    "choose": {
+      "a": "A. Display interface",
+      "b": "B. Display temperature",
+      "c": "C. Display environment",
+      "d": "D. Display interface-temperature",
+	  "e": "E. Display interface-environment"
+    },
+    "answer": "3"
+  },
+  "question3": {
+    "dec": "Which three Physical Layer components should you check when either the Switch 7700 or Switch 8800 is having a connection problem? (Choose three.)",
+    "choose": {
+      "a": "A. Link LEDs",
+      "b": "B. Switch ARP tables",
+      "c": "C. Switch VLAN assignments",
+      "d": "D. MAC addresses for the link",
+	  "e": "E. RX error statistics for the link",
+	  "f": "F. Link Speed, duplex mode and flow control"
+    },
+    "answer": "1, 5, 6"
+	},
+  "question4": {
+    "dec": "Which three may be the cause of a Switch 7700 Network Layer 3 problem? (Choose three.)",
+    "choose": {
+      "a": "A. The switch trunk ports are not properly configured",
+      "b": "B. The RIP versions are not the same between switches",
+      "c": "C. The switch is not sending and receiving route updates",
+      "d": "D. Spanning Tree Protocol (STP) is disabled on the switch",
+	  "e": "E. The MAC address table 'aging parameter' is set too high",
+	  "f": "F. Virtual Router Redundancy Protocol (VRRP) is not properly configured on the switch"
+    },
+    "answer": "2, 3, 6"
+	},
+  "question5": {
+    "dec": "Which command displays the system configuration stored in the Switch 7700 flash memory?",
+    "choose": {
+      "a": "A. display flash",
+      "b": "B. display configuration",
+      "c": "C. display saved-configuration",
+      "d": "D. display current-configuration"
+    },
+    "answer": "3"
+	},
+  "question6": {
+    "dec": "When two PCs on the same Virtual LAN (VLAN) are unable to communicate with each other, which three procedures will help troubleshoot the Layer 2 Data Link issue? (Choose three.)",
+    "choose": {
+      "a": "A. Flush the IP routing table",
+      "b": "B. Check the VLAN settings for each port",
+      "c": "C. Check the LED status on each of the ports",
+      "d": "D. Clear and reset the Spanning Tree Protocol table",
+	  "e": "E. Flush the Address Resolution Protocol (ARP) table",
+	  "f": "F. Check the bridge forwarding table to ensure the IP/MAC address assignment is correct"
+    },
+    "answer": "2, 5, 6"
+	},
+  "question7": {
+    "dec": "Which two procedures should a network administrator implement to assist in identifying the cause of a network incident or problem? (Choose two.)",
+    "choose": {
+      "a": "A. Document the existing network configuration",
+      "b": "B. Install network sniffers throughout the network",
+      "c": "C. Download all router and Layer 3 switch tables",
+      "d": "D. Gather appropriate sniffer traces for the problem",
+	  "e": "E. Dump the pertinent statistics from all affected network devices"
+    },
+    "answer": "4, 5"
+	},
+  "question8": {
+    "dec": "Which four are Link Aggregation features/functions on the Switch 7700? (Choose four.)",
+    "choose": {
+      "a": "A. The switch supports the IEEE 802.3ad standard",
+      "b": "B. Link Aggregation ports must be consecutive switch ports",
+      "c": "C. Link Aggregation ports should be set to TRUNK or HYBRID",
+      "d": "D. Use the 'display interface' command to see all ports within a group",
+	  "e": "E. Use the 'display link-aggregation' command to see all ports within a group",
+	  "f": "F. A Link Aggregation port should be set to 'access' if more than one VLAN is supported on the link"
+    },
+    "answer": "1, 2, 3, 5"
+	},
+  "question9": {
+    "dec": "Which three can be used to download a configuration file on the Switch 7700? (Choose three.)",
+    "choose": {
+      "a": "A. Use IP protocol",
+      "b": "B. Use FTP protocol",
+      "c": "C. Use TFTP protocol",
+      "d": "D. Use HTTP protocol",
+	  "e": "E. Use XMODEM protocol",
+	  "f": "F. Use the system 'dump' command"
+    },
+    "answer": "2, 3, 5"
+	},
+  "question10": {
+    "dec": "Which two should you verify on either the Switch 7700 or the Switch 8800 if the network is experiencing an Open Shortest Path First (OSPF) problem? (Choose two.)",
+    "choose": {
+      "a": "A. OSPF is enabled on all switch ports",
+      "b": "B. VRRP is properly configured on the switch ports supporting OSP6",
+      "c": "C. The Link State Database is the same for all routers in an OSPF area",
+      "d": "D. The switch is sending/receiving OSPF Hello packets and Link State updates"
+    },
+    "answer": "3, 4"
+	},
+  "question11": {
+    "dec": "Which two are syslog features/functions on the Switch 7700 and Switch 8800? (Choose two.)",
+    "choose": {
+      "a": "A. Responsible for all system information output",
+      "b": "B. By default, the syslog automatically clears its file every 30 days",
+      "c": "C. Is divided into eight levels, which can be filtered based on a level",
+      "d": "D. Serves as an information center of the system's software modules",
+	  "e": "E. Can be dumped to a console, monitor, SQL database or ASCII text file"
+    },
+    "answer": "3, 4"
+	},
+  "question12": {
+    "dec": "Which three are key requirements for the Access Layer (edge) of the network? (Choose three.)",
+    "choose": {
+      "a": "A. Multilayer traffic prioritization",
+      "b": "B. Multiple priority queues per port",
+      "c": "C. Hardware-based Access Control List (ACLs)",
+      "d": "D. Rate limiting and remarking for outgoing traffic",
+	  "e": "E. MAC address authorization or IEEE 802.1X Network Login",
+	  "f": "F. Resource Reservation Protocol (RSVP) bandwidth allocation"
+    },
+    "answer": "1, 2, 5"
+	},
+  "question13": {
+    "dec": "Which three are security-design features that can be employed in enterprise networks to improve network security? (Choose three.)",
+    "choose": {
+      "a": "A. Enable IEEE.802.d link aggregation",
+      "b": "B. Turn off IGMP snooping on all access-layer switches",
+      "c": "C. Provide security for active devices using local or RADIUS authentication",
+      "d": "D. Support IEEE 802.1X Network Login for authentication and authorization",
+	  "e": "E. Provide separate VLANs for management and wireless users with a VLAN-centric design",
+	  "f": "F. Employee TCP Windowing and or IEEE 802.3x Flow Control to minimize effects of network attacks"
+    },
+    "answer": "3, 4, 5"
+	},
+  "question14": {
+    "dec": "Which three are true statements regarding 10 Gigabit technology and/or 3Com products? (Choose three.)",
+    "choose": {
+      "a": "A. The 3Com XFP 10G Fiber Transceivers use LC connectors",
+      "b": "B. IEEE 802.3ak defines the 10GBASE-CX4 standard for Twinaxial",
+      "c": "C. 3Com supports 10G Interface Modules for both the Switch 7700 and Switch 8800",
+      "d": "D. The 10GBASE-T standard requires four-pair Category 5 or two-pair Category 6 UTP wiring",
+	  "e": "E. The 10 Gigabit standard for twisted pair wiring (10GBASE-T) supports a maximum distance of 50 meters"
+    },
+    "answer": "1, 2, 3"
+	},
+  "question15": {
+    "dec": "Which two 3Com switch families can currently be used to create an XRN Distributed Fabric (DF)? (Choose two.)",
+    "choose": {
+      "a": "A. 3Com Switch 40X0 family",
+      "b": "B. 3Com Switch 4005 family",
+      "c": "C. 3Com Switch 4007 family",
+      "d": "D. SuperStack 3 Switch 4400 family",
+	  "e": "E. SuperStack 3 Switch 4900 family"
+    },
+    "answer": "1, 5"
+    },
+  "question16": {
+    "dec": "Which component of XRN technology is defined as: 'A set of interconnected switches that support Distributed Device Management (DDM), Distributed Link Aggregation (DLA) and Distributed Resilient Routing (DRR)'?",
+    "choose": {
+      "a": "A. XRN Interconnect",
+      "b": "B. XRN Distributed Fabric",
+      "c": "C. XRN Interconnect Fabric",
+      "d": "D. XRN Distributed Software"
+    },
+    "answer": "2"
+    },
+  "question17": {
+    "dec": "Which component of XRN technology is defined as: 'An advanced routing implementation that allows multiple interconnected switches in an XRN solution to behave as a single active routing entity'?",
+    "choose": {
+      "a": "A. XRN Interconnect",
+      "b": "B. XRN Distributed Fabric",
+      "c": "C. Distributed Link Aggregation (DLA)",
+      "d": "D. Distributed Resilient Routing (DRR)",
+	  "e": "E. Distributed Device Management (DDM)"
+    },
+    "answer": "4"
+    },
+  "question18": {
+    "dec": "Which three are recommended guidelines for an XRN network? (Choose three).",
+    "choose": {
+      "a": "A. Only enable Rapid Spanning Tree Protocol (RSTP) or Spanning Tree Protocol (STP) on edge switches",
+      "b": "B. Do not hot insert Fabric Interconnect Modules into the SuperStack 3 Switch 4900 or Switch 40X0 switches",
+      "c": "C. Run the same version of the Gigabit Multilayer Switching (GMS) Software (4.x or higher) across the fabric",
+      "d": "D. Use fault-tolerant 3Com hardware, i.e., the Switch 40X0 family that provides additional levels of hardware fault tolerance",
+	  "e": "E. The XRN Fabric Modules should be installed while the fabric switch is powered on. Hot swapping XRN Fabric Modules is also recommended in the event of a failure"
+    },
+    "answer": "2, 3, 4"
+    },
+  "question19": {
+    "dec": "Which three are benefits/features of the 3Com XRN technology? (Choose three.)",
+    "choose": {
+      "a": "A. Ensures continuous network availability",
+      "b": "B. Supports enhanced network performance",
+      "c": "C. Can be created using any IP-based switch",
+      "d": "D. Creates a path for future-proofing the network",
+	  "e": "E. Eliminates the need for hardware redundancy to achieve maximum network resiliency"
+    },
+    "answer": "1, 2, 4"
+    },
+  "question20": {
+    "dec": "What is the procedure for upgrading a SuperStack 3 Switch 4400 SE to the enhanced switch feature set?",
+    "choose": {
+      "a": "A. Enter the software upgrade code obtained from 3Com and reboot the switch",
+      "b": "B. Copy the 3Com upgrade file to a TFTP server on the same subnet as the switch, start the TFTP server and configure the switch, reboot the switch when the Power LED stops flashing",
+      "c": "C. Copy the 3Com upgrade file to a TFTP server on the same network as the switch, start the TFTP server and configure the switch, reboot the switch when the Power LED stops flashing",
+      "d": "D. Purchase and obtain activation key for the Switch 4400 Enhanced Software Upgrade from 3Com; using Command Line Interface (CLI), enter 'system license add;' enter activation key; confirm"
+    },
+    "answer": "4"
+    },
+  "question21": {
+    "dec": "Which four software features are supported on all models of the SuperStack 3 Switch 4400? (Choose four.)",
+    "choose": {
+      "a": "A. Resilient Links",
+      "b": "B. Link Aggregation",
+      "c": "C. IEEE802.1X Network Login",
+      "d": "D. Multi Layer Packet Classification",
+	  "e": "E. Rapid Spanning Tree Protocol and Spanning Tree Protocol"
+    },
+    "answer": "1, 2, 3, 5"
+    },
+  "question24": {
+    "dec": "Click the Exhibit button. If you chose either the 3Com Switch 8810 or Switch 8814 for Da Silva Research Foundation (DRF) data center solution, which Interface Modules would you use to connect the four distribution centers and the nine satellite buildings?",
+    "choose": {
+      "a": "A. Option A - One 24-port 1000BASE-X module (3C17514) with - Four 1000BASE-LX SFP Transceivers (3CSFP92) to connect the distribution centers - Nine 1000BASE-SX SFP Transceivers (3CSFP91) to connect the satellite buildings",
+      "b": "B. Option B - Two 24-port 1000BASE-X modules (3C17514) with - 26 1000BASE-SX SFP Transceivers (3CSFP91) to connect the distribution centers and the satellite buildings",
+      "c": "C. Option C - One 12-port 1000BASE-X module (3C17513) and one 24-port 1000BASE-X module (3C17514) with - 26 1000BASE-SX SFP Transceivers (3CSFP91) to connect the distribution centers and the satellite buildings",
+      "d": "D. Option D - One 12-port 1000BASE-X module (3C17513) and one 24-port 1000BASE-X module (3C17514) with - Eight 1000BASE-LX SFP Transceivers (3CSFP92) to connect the distribution centers - 18 1000BASE-SX SFP Transceivers (3CSFP91) to connect the satellite buildings"
+    },
+    "answer": "4"
+    },
+  "question25": {
+    "dec": "Click the Exhibit button. Which two 3Com solutions would you recommend for the Da Silva Research Foundation (DRF) Building 9 data center to support both the campus/building backbone and the server farm with a single switch? (Choose two.)",
+    "choose": {
+      "a": "A. One Switch 4070",
+      "b": "B. One Switch 7700 7-Slot Chassis",
+      "c": "C. One Switch 7700R 8-Slot Chassis",
+      "d": "D. One Switch 8807",
+	  "e": "E. One Switch 8810"
+    },
+    "answer": "3, 5"
+    },
+  "question26": {
+    "dec": "Click the Exhibit button. Which two 3Com solutions would you recommend to Da Silva Research Foundation (DRF) for each of the four distribution centers in Buildings 16, 20, 35 and 38, to connect them to the campus backbone? (Choose two.)",
+    "choose": {
+      "a": "A. Option A - Two Switch 4050, each with - One 1000BASE-SX GBIC",
+      "b": "B. Option B - Two Switch 4060, each with - One 1000BASE-LX GBIC",
+      "c": "C. Option C - One Switch 7700 7-slot chassis starter kit with - One 8-port 1000BASE-X module (3C16858) - Two 1000BASE-SX GBICs (3CGBIC91)",
+      "d": "D. Option D - One Switch 7700R 8-slot chassis starter kit with - One 8-port 1000BASE-X module (3C16858) - Two 1000BASE-LX GBICs (3CGBIC92)",
+	  "e": "E. Option E - One Switch 7700R 8-slot chassis starter kit with - One 8-port 1000BASE-X module (3C16858) - Four 1000BASE-LX GBICs (3CGBIC92)"
+    },
+    "answer": "2, 4"
+    },
+  "question27": {
+    "dec": "Click the Exhibit button. Which solution would you recommend to the Da Silva ResearchFoundation (DRF) to support its wiring closet, end-user switch requirements?",
+    "choose": {
+      "a": "A. SuperStack 3 Switch 4400 FX",
+      "b": "B. SuperStack 3 Switch 4400 SE with a 1000BASE-SX Module",
+      "c": "C. SuperStack 3 Switch 4400 24/48-Port with 1000BASE-T Module",
+      "d": "D. SuperStack 3 Switch 4400 24/48-Port with 1000BASE-SX Module"
+    },
+    "answer": "4"
+    },
+  "question28": {
+    "dec": "Which four are hardware features/functions of the SuperStack 3 Switch 4900 Family? (Choose four.)",
+    "choose": {
+      "a": "A. Full/half duplex on all ports",
+      "b": "B. Four traffic queues per port",
+      "c": "C. Store and forward switching",
+      "d": "D. GBIC interface for flexible cabling",
+	  "e": "E. 12,000 MAC addresses per unit, 64 permanent",
+	  "f": "F. Smart auto-sensing across all multi-speed copper ports"
+    },
+    "answer": "2, 3, 5, 6"
+    },
+  "question29": {
+    "dec": "Which two are traffic prioritization features of the SuperStack 3 Switch 4900 Family? (Choose two.)",
+    "choose": {
+      "a": "A. Queues can be manipulated",
+      "b": "B. By default, there is a single queue per port",
+      "c": "C. Logical queues are classified based on latency",
+      "d": "D. Traffic prioritization is based on IEEE 802.1Q tag information",
+	  "e": "E. All models support four queues per port, two physical and two logical"
+    },
+    "answer": "2, 5"
+    },
+  "question30": {
+    "dec": "Which SuperStack 3 Switch 4900 model can concurrently support Gigabit Ethernet over UTP wiring, multimode-fiber, single-mode fiber and long haul cabling without the addition of an expansion module?",
+    "choose": {
+      "a": "A. SuperStack 3 Switch 4900",
+      "b": "B. SuperStack 3 Switch 4900 SX",
+      "c": "C. SuperStack 3 Switch 4924",
+      "d": "D. SuperStack 3 Switch 4950"
+    },
+    "answer": "4"
+    },
+  "question32": {
+    "dec": "Click the Exhibit button. If you recommend a Switch 7700 for the data center backbone-core solution, Which three modules/interfaces would the customer require for each of the two data center backbone-core switches? (Choose three).",
+    "choose": {
+      "a": "A. Eight 1000BASE-SX GBICs (3CGBIC91)",
+      "b": "B. Eight 1000BASE-LH70 GBICs (3CGBIC97)",
+      "c": "C. One Switch 7700 8-port 1000BASE-T module (3C16859)",
+      "d": "D. One Switch 7700 8-port 1000BASE-X module (3C16858)",
+	  "e": "E. Two Switch 7700 8-port 1000BASE-T modules (3C16859)",
+	  "f": "F. Two Switch 7700 8-port 1000BASE-X modules (3C16858)"
+    },
+    "answer": "1, 3, 4"
+    },
+  "question33": {
+    "dec": "Click the Exhibit button. Which two 3Com solutions would you recommend for the Bantry Bay data center, backbone core? (Choose two.)",
+    "choose": {
+      "a": "A. Two Router 6040",
+      "b": "B. One Router 6080",
+      "c": "C. Two Switch 7700 4-Slot Chassis",
+      "d": "D. Two Switch 7700 7-Slot Chassis",
+	  "e": "E. One Switch 7700R 8-Slot Chassis"
+    },
+    "answer": "4, 5"
+    },
+  "question34": {
+    "dec": "Click the Exhibit button. If you recommend a single Switch 7700R 8-Slot Chassis to create the highly-resilient backbone, Which three switch components would Bantry Bay require for the data center's backbone-core switch? (Choose three.)",
+    "choose": {
+      "a": "A. One Switch 7700R Starter Kit (3C16852)",
+      "b": "B. One Switch 7700 AC Power Supply (3C16854)",
+      "c": "C. Three Switch 7700 AC Power Supplies (3C16854)",
+      "d": "D. One Switch 7700R 8-Slot Fan Assembly (3C16855)",
+	  "e": "E. One Switch 7700R Gigabit Ethernet Redundant Switching Fabric (3C16857R)"
+    },
+    "answer": "1, 2, 5"
+    },
+  "question35": {
+    "dec":" Click the Exhibit button. If you choose the SuperStack 3 Switch 4400 for the wiring closets, Which two optional backbone modules would you recommend to Bantry Bay to support the connections between the distribution layer and the wiring closets? (Choose two.)",
+    "choose": {
+      "a": "A. SuperStack 3 Switch 4400 Stack Extender Kit",
+      "b": "B. SuperStack 3 Switch 4400 100BASE-FX Module",
+      "c": "C. SuperStack 3 Switch 4400 1000BASE-T Module",
+      "d": "D. SuperStack 3 Switch 4400 1000BASE-LX Module",
+	  "e": "E. SuperStack 3 Switch 4400 1000BASE-SX Module"
+    },
+    "answer": "3, 5"
+    },
+  "question36": {
+    "dec": "Which three are Multilayer Gigabit Software features of the Switch 40x0 Family? (Choose three.)",
+    "choose": {
+      "a": "A. Supports RIP, RIP2 and OSP6",
+      "b": "B. Protocol-based VLAN support",
+      "c": "C. Link Aggregation and Resilient Links support",
+      "d": "D. IP unicast routing with up to 256 router interfaces",
+	  "e": "E. Routed Access Control Lists based on application filtering",
+	  "f": "F. Multicast filtering with Internet Group Multicast Protocol (IGMP) snooping and IGMP querier"
+    },
+    "answer": "1, 3, 6"
+    },
+  "question37": {
+    "dec": "Which two are functions of Switch 40x0 Family IP Multinetting? (Choose two.)",
+    "choose": {
+      "a": "A. Automatically assigns multiple VLANs on each router interface",
+      "b": "B. Floods traffic from different subnets on the same broadcast domain",
+      "c": "C. Enables configuration of multiple router interfaces for each VLAN/broadcast domain",
+      "d": "D. Enables multiple VLANs/broadcast domains to be configured for each router interface"
+    },
+    "answer": "2, 3"
+    },
+  "question38": {
+    "dec": "Which Switch 40x0 model has 24 flexible media SFP Gigabit ports and 1 x expansion module slot?",
+    "choose": {
+      "a": "A. Switch 4050",
+      "b": "B. Switch 4060",
+      "c": "C. Switch 4070",
+      "d": "D. None of the above"
+    },
+    "answer": "3"
+    },
+  "question39": {
+    "dec": "The Switch 7700 or Switch 8800 can be used as the primary authentication service or as a backup if the RADIUS server group is unavailable. True False"
+    , "choose": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "1"
+    },
+  "question40": {
+    "dec": "Which three are functions of the Access Control List capabilities of the Switch 7700? (Choose three)",
+    "choose": {
+      "a": "A. Filter routing updates",
+      "b": "B. Support Embedded Firewall",
+      "c": "C. Control management logins",
+      "d": "D. Filter data from information in Layer 2 - 4 IP header",
+	  "e": "E. Integrate with RADIUS for maximum security protection"
+    },
+    "answer": "1, 3, 4"
+    },
+  "question41": {
+    "dec": "Which three Ethernet modes are supported on the Switch 7700 8-port 1000BASE-T (3C16859) Interface Module? (Choose three.)",
+    "choose": {
+      "a": "A. 10 Mbps in full duplex mode only",
+      "b": "B. 10 Mbps in half/full duplex mode",
+      "c": "C. 100 Mbps in full duplex mode only",
+      "d": "D. 100 Mbps in half/full duplex mode",
+	  "e": "E. 1000 Mbps in full duplex mode only",
+	  "f": "F. 1000 Mbps in half/full duplex mode"
+    },
+    "answer": "2, 4, 5"
+    },
+  "question42": {
+    "dec": "Which three are Quality of Service (QoS) features/functions on the Switch 8800? (Choose three.)",
+    "choose": {
+      "a": "A. Has eight output queues per port",
+      "b": "B. Supports Differentiated Services (DiffServ) prioritization",
+      "c": "C. Uses a Random Early Detection (RED) queue prioritization",
+      "d": "D. Uses a Weighted Random Early Detection (WRED) queue prioritization",
+	  "e": "E. Can configure the priority queues 'globally' across all I/O interfaces on a switch",
+	  "f": "F. Uses Resource Reservation Protocol (RSVP) to allocate bandwidth for high-priority applications"
+    },
+    "answer": "1, 2, 4"
+    },
+  "question43": {
+    "dec": "Which two operations does the Switch 7700 use to prevent network loops on an Ethernet network? (Choose two.)",
+    "choose": {
+      "a": "A. The switch uses Spanning Tree Protocol (STP) to eliminate loops on the network",
+      "b": "B. The network administrator must configure switch-to-switch ports to eliminate loops on the network",
+      "c": "C. The switch uses Virtual Router Redundancy Protocol (VRRP) to eliminate loops on the network",
+      "d": "D. The switch uses Address Resolution Protocol (ARP) to determine the network topology and eliminate loops",
+	  "e": "E. The switch uses Multiple Spanning Tree Protocol (MSTP) to eliminate loops on the network",
+	  "f": "F. The switch automatically learns addresses of other devices by listening to the network to determine the network topology"
+    },
+    "answer": "1, 5"
+    },
+  "question44": {
+    "dec": "What is the maximum number of Link Aggregation load-balancing groups supported on the Switch 7700?",
+    "choose": {
+      "a": "A. 4 groups",
+      "b": "B. 13 groups",
+      "c": "C. 24 groups",
+      "d": "D. 64 groups",
+	  "e": "E. 128 groups"
+    },
+    "answer": "4"
+    },
+  "question45": {
+    "dec": "Which Quality of Service (QoS) protocol, typically used for prioritizing flow aggregates, supports IP only, is class-based for coarse-grained control, scales well and is relatively simple to implement to categorize and prioritize LAN and WAN traffic?",
+    "choose": {
+      "a": "A. Layer 2 QoS",
+      "b": "B. IEEE 802.1p",
+      "c": "C. Service Level Agreement (SLA)",
+      "d": "D. Differentiated Services (DiffServ)",
+	  "e": "E. Multi-protocol Labeling Switching (MPLS)"
+    },
+    "answer": "4"
+    },
+  "question46": {
+    "dec": "Which LAN technology provides both incremental bandwidth and redundancy between devices?",
+    "choose": {
+      "a": "A. Resilient Links",
+      "b": "B. Aggregated Links",
+      "c": "C. IEEE 802.1D Spanning Tree Protocol (STP)",
+      "d": "D. Virtual Router Redundancy Protocol (VRRP)",
+	  "e": "E. IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)"
+    },
+    "answer": "2"
+    },
+  "question47": {
+    "dec": "XRN Technology v2.0 allows network architects to scale bandwidth capacity. True False",
+    "choose": {
+      "a": "True",
+      "b": "False"
+    },
+    "answer": "1"
+    },
+  "question48": {
+    "dec": "Which class of IP addresses is reserved for IP multicasting?",
+    "choose": {
+      "a": "A. Class A",
+      "b": "B. Class B",
+      "c": "C. Class C",
+      "d": "D. Class D",
+	  "e": "E. Any class of IP address may be used for IP multicasting"
+    },
+    "answer": "4"
+    },
+  "question49": {
+    "dec": "Which two cabling options should you choose for a customer who wants to upgrade the building and the campus backbones to Gigabit Ethernet? Note: The campus backbone requires a 1,000- meter run, and the building backbone runs are from 300-500 meters in length. All new cabling is required. (Choose two.)",
+    "choose": {
+      "a": "A. 1000BASE-TX copper for the building backbones",
+      "b": "B. 1000BASE-SX 50 micron multimode fiber for the building backbones",
+      "c": "C. 1000BASE-LX 9 micron single-mode fiber for the campus backbones",
+      "d": "D. 1000BASE-LX 62.5 micron multimode fiber for the building backbones",
+	  "e": "E. 1000BASE-LX 62.5 micron multimode fiber for the campus backbones"
+    },
+    "answer": "2, 3"
+    },
+  "question51": {
+    "dec": "Click the Exhibit button. You recommended a 1000BASE-X campus-backbone solution to Maluti University (MU) to connect the four distribution buildings to the data center. MU is concerned that the 1000BASE-X campus backbone will not provide enough network bandwidth to support its combined data/voice network traffic. Which solution would you recommend to MU to alleviate this concern?",
+    "choose": {
+      "a": "A. Use VLAN segmentation to reduce the traffic that traverses the campus backbone",
+      "b": "B. Distribute the 28 servers, currently located in Building 9 data center, throughout the network to reduce campus-backbone traffic",
+      "c": "C. Use the Switch 8800 in the data center and the Switch 4070 in the distribution centers with 10-Gig Ethernet connections between the switches",
+      "d": "D. Use the Switch 8800 in the data center and the Switch 7700 in the distribution centers with 10-Gig Ethernet connections between the switches"
+    },
+    "answer": "4"
+    },
+  "question52": {
+    "dec": "Click the Exhibit button. Which 3Com solution would you recommend for the Maluti University (MU) data center in Building 9 to create the highly-redundant campus backbone connecting the four distribution buildings?",
+    "choose": {
+      "a": "A. Option A - One Switch 7700R 8-Slot Chassis Starter Kit with - One 8-port 1000BASE-X module (3C16858) - Eight 1000BASE-SX GBICs (3CGBIC91).",
+      "b": "B. Option B - One switch 8810 Starter Kit with - One 12-port 1000BASE-X module (3C17516) - Eight 1000BASE-LX GBICs (3CGBIC92).",
+      "c": "C. Option C - One switch 8814 Starter Kit with - One 12-port 1000BASE-X module (3C17516) - Eight 1000BASE-LX SFP Transceivers (3CSFP92) - One Switch 8800 360 Gbps Fabric Module (3C17508).",
+      "d": "D. Option D - One switch 8814 Starter Kit with - One 12-port 1000BASE-X module (3C17516) - Eight 1000BASE-LX SFP Transceivers (3CSFP92) - Two Switch 8800 360 Gbps Fabric Modules (3C17508)."
+    },
+    "answer": "3"
+    },
+  "question53": {
+    "dec": "Click the Exhibit button. If you recommended the 3Com Switch 8800 for Maluti University (MU) data center solution in Building 9, Which Switch 8800 interface-module solution would you use to connect the wiring-closet switches in Building 9 to the data center switch?",
+    "choose": {
+      "a": "A. The 12- or 24-Port 1000BASE-X module",
+      "b": "B. The 24-port 10/100/1000BASE-T Module (3C17516)",
+      "c": "C. The 12- or 24-Port 1000BASE-X module with multiple 1000BASE-SX SFP Transceivers (3CSFP91)",
+      "d": "D. The 12- or 24-Port 1000BASE-X module with multiple 1000BASE-LH SFP Transceivers (3CSFP97)"
+    },
+    "answer": "3"
+    },
+  "question54": {
+    "dec": "Click the Exhibit button. Your Maluti University (MU) data center design uses a single Switch 8814 to support the campus backbone, the server farm and the wiring-closet connections in Building 9.Which four current Switch 8800 features address Maluti University (MU) network requirements? (Choose four.)",
+    "choose": {
+      "a": "A. With no single point of failure, the switch creates a reliable, high-availability solution",
+      "b": "B. Protocol-based VLAN support provides the necessary flexibility to control broadcast traffic",
+      "c": "C. Supports Integrated Services (IntServ) and RSVP to provide flow-based, fine-grain control over network traffic",
+      "d": "D. With the load-sharing, redundant Switch Fabric, the switch has a maximum aggregate throughput of more than 400 Mpps",
+	  "e": "E. Multiple priority features will ensure key applications receive the best network response, i.e.; eight priority queues per port, Weighted Random Early Detection (WRED) queuing and DiffServ support",
+	  "f": "F. IEEE 802.1X network Login and Authentication, Authorization, Accounting (AAA) capabilities provide the necessary network security by establishing what services employees can use and preventing unauthorized users from gaining access to the network"
+    },
+    "answer": "1, 4, 5, 6"
+  }
+}
